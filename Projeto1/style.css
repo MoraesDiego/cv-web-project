@@ -1,10 +1,23 @@
 body{
     
     background: linear-gradient(rgb(195, 188, 202) 10%, rgb(243, 240, 240), rgb(227, 227, 217) 50%) fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 25px 25px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
     /*width: 1150px; 
     height: 130px;*/
+    overflow: auto;
+    
+}
+
+.top-bar {
+    background-color: rgb(56, 48, 48);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid rgb(34, 31, 31);
 }
 
 p{
@@ -14,8 +27,10 @@ p{
 ul{
     /*cor das listas*/
     color: brown;
-    margin-left: 450px;
-    margin-right: 400px;
+    /*margin-left: 450px;
+    margin-right: 400px;*/
+    max-width: 888px;
+    margin: auto;
 }
 li{
     margin: 10px;
@@ -36,31 +51,38 @@ li{
 }
 
 #dadospessoais {
-    margin-left: 350px;
-    margin-right: 350px;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: auto;
+    padding: 0px;
+    margin-top: 20px;
+    /*margin-left: 350px;
+    margin-right: 350px;*/
     /*width: auto; /*90vw, 10vh;*/
     /*height: auto; /*13vw, 20vh;*/
-    border-radius: 25px 75px;
+    border-radius: 100px 100px 50px 50px;
     border-width: 3px;
-    border-style: solid;
+    border-style: none;
     border-color: rgb(120, 114, 114);
-    background-color: rgb(179, 181, 181);
-    background-image: url(./foto3x4.jpeg);
+    background: linear-gradient(rgb(153, 153, 169) 10%, rgb(243, 240, 240), rgb(227, 227, 217) 50%) fixed;
+    /*background-image: url(./foto3x4.jpeg);
     background-size: 15% 110%;
     background-repeat: no-repeat;
     background-position: right;
-    overflow: auto;
+    overflow: auto;*/
     /*background-position-x: 1256px;
     background-position-y: 1000;
     background-attachment: fixed;*/
     font-size: 18px;
-    text-align: center
+    text-align: center;
     
     
 }
 
-#fototopo{
-    ;
+.fototopo{
+    width: 175px;
+    border-radius: 120px;
+    position: left;
 }
 
 .fotodiego{
@@ -70,22 +92,22 @@ li{
 }
 
 #intro {
-    margin-left: 450px;
-    margin-right: 450px;
+    max-width: 888px;
+    min-width: 888px;
+    margin: auto;
+    padding: 30px;
     text-align: justify;
-    width: auto; 
-    height: auto;
-    /*width: 1150px; 
-    height: 130px;*/
     /*background-color: rgb(181, 183, 183);*/
-    font-family: bs, Arial, Helvetica, sans-serif;
-    font-weight: 800   
+    font-family: 'Open Sans', bs, Arial, Helvetica, sans-serif;
+    font-weight: 400   
 
 }
 
 .topicos{
-    margin-left: 450px;
-    margin-right: 450px;
+    max-width: 888px;
+    min-width: 888px;
+    margin: auto;
+    padding: 30px;
 
 }
 
@@ -96,6 +118,9 @@ h3{
 
 /* cor e representação das classes. */
 .titulos{
+    max-width: 888px;
+    min-width: 888px;
+    margin: auto;
     color: rgb(16, 16, 119);
     text-shadow: 2px 1px 18px rgb(61, 61, 136);
     text-align: center; 
