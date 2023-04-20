@@ -34,8 +34,8 @@ ul{
 li{
     margin: 10px 20px;
     padding-bottom: 0px;
-    line-height: 30px;
-    font-size: 17px;
+    line-height: 24px;
+    font-size: 16px;
     
 }
 
@@ -83,19 +83,19 @@ li{
     max-width: 888px;
     min-width: 888px;
     margin: auto;
-    padding: 30px;
+    padding: 3px;
     text-align: justify;
     /*background-color: rgb(181, 183, 183);*/
     font-family: 'Open Sans', bs, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 24px;
 }
 
 .topicos{
     max-width: 888px;
     min-width: 888px;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
 }
 
@@ -107,6 +107,7 @@ h3{
 /* cor e representação das classes. */
 .titulos{
     padding: 25px;
+    padding-bottom: 5px;
     max-width: 888px;
     min-width: 888px;
     margin: auto;
@@ -120,7 +121,7 @@ h3{
 }
 
 .estilo-link1{
-    color: black;
+    color: rgb(65, 5, 133);
     padding: 0px;
     background-color: none;
     text-decoration: none;
@@ -131,7 +132,7 @@ h3{
 }
 
 .estilo-link1:visited{
-    color: rgb(98, 23, 0);
+    color: rgb(98, 0, 69);
 }
 .estilo-link1:hover{
     padding: 0px 7px;
